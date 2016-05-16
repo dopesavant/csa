@@ -1,0 +1,1 @@
+web: gunicorn consumergram.wsgi --log-file -
