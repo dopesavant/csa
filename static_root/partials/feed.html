@@ -1,0 +1,49 @@
+
+<div infinite-scroll="loadMore()" infinite-scroll-disabled= "stop">	
+<div class="container" >
+	<div class="search">
+		<center>
+			<span style="font-weight:bold;">
+		You are currently viewing the {{totalLength}} latest posts
+			</span>
+		</center>
+			<input type="search" name="" class="form-control picsearch" placeholder="Search" ng-model = "search">
+	</div>
+		<div class="row">
+		<div class ="col-xs-6 col-xs-offset-3 col-sm-6 col-md-3 col-md-offset-1" ng-repeat = "data in feeds| filter: search " >
+			<div class="thumbnail">
+				<div class="caption">
+					<div class="row">
+						<div class="col-xs-4">
+						<a ng-href="http://instagram.com/{{data.user.username}}" target="_blank">
+						<img class="img-responsive profile" ng-src="{{data.user.profile_picture}}">
+						</a>
+						</div>
+
+						<div class="col-xs-4">
+						<span class="username">	
+						<a ng-href="http://instagram.com/{{data.user.username}}" target="_blank">
+						{{data.user.username }} 
+						</a>
+						</span>
+						</div>
+					</div>	
+				</div>
+			<a ng-href="{{data.link }} " target="_blank">
+				<img class="img-responsive " ng-src=" {{data.images.standard_resolution.url }} " uib-popover="{{data.caption.text }}" popover-trigger="mouseenter" popover-placement ="bottom">
+			</a>	
+			
+			</div>	
+		</div>
+		</div>
+
+		<div ng-show="busy">
+			<center>	
+				<h4> Loading .. 
+				<i class="fa fa-spinner fa-spin fa-2x"> </i>
+			 	</h4>
+			</center> 
+		</div>
+
+</div>
+</div>
