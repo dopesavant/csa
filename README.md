@@ -22,7 +22,7 @@ Live URL:  https://murmuring-wave-29785.herokuapp.com/ <br/>
 <b> PROJECT INFORMATION</b> <br/>
 Backend: Django 1.9.6 <br/>
 Front-End: Angular 1.5.5 <br/>
-API: Instagram API 
+API: Instagram API <br/>
 Routing: Angular-UI-Router<br/>
 Local Storage: ngStorage <br/>
 
