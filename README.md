@@ -6,7 +6,7 @@ The search feature enables you to filter through available posts <br/>
 
 
 Live URL:  https://murmuring-wave-29785.herokuapp.com/ <br/> 
-**Please note that the first connection maybe slow, as the server may be asleep, and needs a connection to wakeup ** <br/>
+**Please note that the first connection may be slow, as the server may be asleep, and needs a connection to wakeup ** <br/>
 
 <b> SETUP STEPS </b> <br/>
 ** Make Sure You Have an Active Internet Connection ** <br/>
