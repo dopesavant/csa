@@ -15,12 +15,6 @@ angular.module('consumergram',  [ 'ui.router', 'ui.bootstrap', 'ngStorage', 'inf
 			templateUrl: "static/partials/feed.html",
 			controller: 'MainCtrl'
 		})
-
-		.state('user',{
-			url: "/user/:id",
-			templateUrl: "/partials/userinfo.html",
-			controller: 'UserCtrl'
-		})
 })
 
 // App Controller

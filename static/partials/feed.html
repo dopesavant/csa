@@ -3,11 +3,17 @@
 <div class="container" >
 	<div class="search">
 		<center>
+		<div class="panel panel-primary">
+		<div class="panel-heading">
 			<span style="font-weight:bold;">
 		You are currently viewing the {{totalLength}} latest posts
 			</span>
+		</div>
+		</div>
 		</center>
-			<input type="search" name="" class="form-control picsearch" placeholder="Search" ng-model = "search">
+		
+	
+				<input type="search" name="" class="form-control picsearch" placeholder="Search" ng-model = "search">
 	</div>
 		<div class="row">
 		<div class ="col-xs-6 col-xs-offset-3 col-sm-6 col-md-3 col-md-offset-1" ng-repeat = "data in feeds| filter: search " >
