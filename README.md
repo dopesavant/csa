@@ -1,8 +1,12 @@
 # ConsumerAffairs
 A Single Page Application, which displays instagram posts containing the tag "ConsumerAffairs". <br/>
 Data is received from the Instagram API, stored locally in the users browser, and then displayed on the homepage.<br/>
+On first conection, the 20 latest posts are loaded, with more loaded as you scroll to the bottom of the page <br/>
+The search feature enables you to filter through available posts <br/>
 
-Live URL:  https://murmuring-wave-29785.herokuapp.com/ <br/>
+
+Live URL:  https://murmuring-wave-29785.herokuapp.com/ <br/> 
+**Please note that the first connection maybe slow, as the server may be asleep, and needs a connection to wakeup ** <br/>
 
 <b> SETUP STEPS </b> <br/>
 ** Make Sure You Have an Active Internet Connection ** <br/>
